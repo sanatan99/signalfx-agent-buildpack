@@ -1,0 +1,6 @@
+#!/bin/bash
+cat <<YAML
+---
+default_process_types:
+    web: '.signalfx/signalfx-agent/bin/signalfx-agent -config .signalfx/etc/agent.yaml'
+YAML
